@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://bin/gdexample.gdns" type="Script" id=2]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( 326.534, 227.491 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -2.32047, 0.00117493 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
